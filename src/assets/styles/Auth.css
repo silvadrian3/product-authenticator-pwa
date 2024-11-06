@@ -1,0 +1,38 @@
+body {
+  color: #222222;
+}
+
+.welcome-message {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* min-height: 60vh !important; */
+  padding-left: 20%;
+}
+
+.welcome-message h2 {
+  font-size: calc(20px + 1vmin);
+  font-weight:normal;
+}
+
+.authcontainer {
+  padding: -10% 0 10% 0;
+  justify-content: unset !important;
+}
+
+
+  :root {
+    --amplify-primary-color: #6ca441;
+    --amplify-primary-tint: #a1cc7f;
+    --amplify-primary-shade: #86be5b;
+    color:#202020;
+  }
+
+  /* .toast {
+    border-color: #f5c6cb !important;
+    background-color: #f8d7da !important;
+    top: 10px !important;
+    right: 10px !important;
+    width: auto !important;
+  } */
+
