@@ -30,6 +30,7 @@ const QRScanner = ({ onScan }) => {
               handleError(error);
             }
           }}
+          constraints={{ facingMode: "environment" }} // Set to "environment" for back camera
           style={{ width: "100%" }}
         />
       </div>
